@@ -1,4 +1,5 @@
-import helmet from "helmet";
+import "express-async-errors"
+import helmet from "helmet"
 import express, { json } from "express";
 import { productsRoutes } from "./routes/products.routes";
 
